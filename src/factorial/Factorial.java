@@ -4,22 +4,22 @@ public class Factorial {
 
     public static void main(String[] args) {
 
-        int j;
-        int f;
+        int condicion;
+        int factorial;
 
-        j = 8;
+        condicion = 8;
 
-        int i;
-        if (j == 0) {
-            f = 1;
+        int inicio;
+        if (condicion == 0) {
+            factorial = 1;
         } else {
-            f = 1;
-            for (i = j; i >= 1; i--) {
-                f = f * i;
+            factorial = 1;
+            for (inicio = condicion; inicio >= 1; inicio--) {
+                factorial = factorial * inicio;
             }
         }
 
-        System.out.println(f);
+        System.out.println(factorial);
 
     }
 
